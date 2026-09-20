@@ -98,7 +98,7 @@ plt.title("Histograma de valores generados por MT19937")
 plt.xlabel("Valor normalizado")
 plt.ylabel("Frecuencia")
 plt.xlim(0, 1)
-plt.savefig("histograma_msm.png", dpi=300, bbox_inches="tight")
+plt.savefig("histograma_mt19937.png", dpi=300, bbox_inches="tight")
 plt.show()
 
 # Prueba espectral visual
