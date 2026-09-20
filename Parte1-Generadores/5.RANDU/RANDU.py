@@ -159,8 +159,9 @@ ax.set_zlim(0, 1)
 
 # Ángulo que permite observar mejor los planos
 ax.view_init(
-    elev=10,
-    azim=-65
+    elev=17,
+    azim=60,
+    roll=-3
 )
 
 plt.savefig(
